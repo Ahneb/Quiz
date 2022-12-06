@@ -1,0 +1,158 @@
+:root {
+    --action-color: rgb(160, 55, 160);
+    --default-color: rgb(132, 41, 192);
+    --background-color: rgba(29, 30, 32, 0.986);
+    --main-text-color: rgb(185, 185, 185);
+}
+
+body {
+     color: var(--main-text-color);
+     background-color: var(--background-color);
+     font-size: 2em;
+     margin: 40px;
+}
+
+header {
+    display: flex;
+    /* background-color: rgb(100, 18, 18); */
+    width: 100%;
+    
+}
+
+.highscore {
+    padding: 10px;
+    border-radius: 1.5em;
+}
+
+.highscore:hover {
+    box-shadow: inset 0px 0px 10px var(--default-color,1), 0px 0px 15px var(--action-color,1);
+}
+
+.time {
+    padding: 10px;
+    margin-left: auto;
+}
+
+main {
+    /* background-color: rgb(17, 23, 105); */
+    text-align: center;
+    padding: 60px 150px;
+    font-size: 2em;
+}
+
+/*formating for the starting page info*/
+.title {
+    color: var(--default-color);
+}
+
+.start-menu button {
+    width: 150px;
+    height: 75px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.start-menu button:hover {
+    box-shadow: inset 0px 0px 15px var(--default-color,1), 0px 0px 15px var(--action-color,1);
+}
+
+
+/*formatting for the questions pages*/
+.block {
+    /* background-color: red; */
+    padding: 0 300px;
+    text-align: left;
+}
+
+.questions {
+    font-size: .5em;
+
+}
+
+.multiple-choice {
+    font-size: .5em;
+    display: grid;
+    grid-template-columns: max-content;
+    padding-bottom: 20px; 
+    /* background-color: blue; */
+}
+
+.option {
+    margin: 5px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: solid 2px white;
+}
+
+.option:hover {
+    box-shadow: inset 0px 0px 40px var(--default-color,1), 0px 0px 15px var(--action-color,1);
+}
+
+.answers {
+    font-size: .75em;
+    border-top: solid 2px grey;
+    font-style: italic;
+}
+
+/*formatting for Score page*/
+
+.gameover {
+    padding: 0 300px;
+    text-align: left;
+    font-size: 1em;
+}
+
+.gameover-title {
+    color: var(--default-color);
+}
+
+.score {
+    font-size: .50em;
+    padding: 20px 0;
+}
+
+.initials {
+    font-size: .50em;
+    text-align: initial;
+}
+
+input {
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.submit {
+    height: 30px;
+    width: 100px;
+}
+
+.submit:hover {
+    box-shadow: inset 0px 0px 5px var(--default-color,1), 0px 0px 15px var(--action-color,1);
+}
+
+/*formatting for scoreboard*/
+.scoreboard {
+    text-align: left;
+    padding: 0 300px;
+}
+
+.highscore-title {
+    color: var(--default-color);
+    padding: 0 0 20px 0;
+}
+
+.records {
+    font-size: 30px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: inset 0px 0px 5px var(--default-color,1), 0px 0px 15px var(--action-color,1);
+}
+
+.scoreboard button {
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.scoreboard button:hover {
+    box-shadow: inset 0px 0px 5px var(--default-color,1), 0px 0px 15px var(--action-color,1);
+}
