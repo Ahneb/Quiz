@@ -10,7 +10,7 @@ Upon finishing the quiz, all quiz related items are hidden and the user is prese
 
 This information can then be viewed on the main page through the Highscores Button. The button hides the main page and brings you to the score board which takes the  local history information and organizes is based on local storage values which is the quiz score participants get. Additionally there is a button to reset the scoreboard which just deletes all the values inside local storage.
 
-Webpage URL: 
+Webpage URL: https://ahneb.github.io/Quiz/
 ## Features
 
 - js event listeners to dynamically change screen
