@@ -37,6 +37,16 @@ Highschores Page:
 
 
 Clearing Local Storage/Records:
+
+## Roadmap
+
+- fix clear records to remove duplicated records when re-entering highscores page
+- add username verification to ensure a username is passed and/or limit the names
+- align textboxes for submission page
+- simplify code w/ less nested if statements
+- more comments
+- organize code into sections
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
